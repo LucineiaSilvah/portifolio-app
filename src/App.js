@@ -1,23 +1,35 @@
-import logo from './logo.svg';
+import { Parallax , ParallaxLayer } from '@react-spring/parallax';
 import './App.css';
-
+import Cabecalho from './components/Cabecalho';
+import Rodape from './components/Rodape';
+import Banner from './components/Banner';
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+       <Parallax pages={7} className='fundo'>
+        <ParallaxLayer offset={0} >
+          <Cabecalho/>
+          ooooooooooooooooooooooooooooooooooooooo
+          <Banner/>
+        </ParallaxLayer>
+        <ParallaxLayer offset={1}>11111111111111111111111111111</ParallaxLayer>
+        <ParallaxLayer offset={2}  className='frente'>
+22222222222222222222
+        </ParallaxLayer>
+        <ParallaxLayer offset={3}>
+        3333333333333333333
+        </ParallaxLayer>
+        <ParallaxLayer offset={4}  className='frente'>
+          444444444444444444444444
+        </ParallaxLayer>
+        <ParallaxLayer offset={5}>
+          555555555555555555555555
+        </ParallaxLayer>
+        <ParallaxLayer offset={6} className='frente'>
+          <Rodape/>
+          6666666666666666666666666666666666666666666
+        </ParallaxLayer>
+       </Parallax>
     </div>
   );
 }

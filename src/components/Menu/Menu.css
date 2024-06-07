@@ -1,0 +1,16 @@
+.menu{
+ width: 60%;
+ color: #fff;
+}
+.menu ul{
+  display: flex;
+  list-style: none;
+  justify-content: space-around;
+  width: 100%;
+  align-items: center;
+}
+.menu a{
+  font-weight: 300;
+ color:#fff;
+  text-decoration: none;
+}
