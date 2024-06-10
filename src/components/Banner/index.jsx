@@ -5,7 +5,9 @@ export default function Banner(){
     <>
     <div className='banner'>
   
-    <div className='imagem'></div>
+    <div className='imagem'>
+      
+    </div>
 
     <div className='descricao'>
          <h2 >Olá, Me chamo Lucineia Silva e sou Desenvolvedora Front-End</h2>

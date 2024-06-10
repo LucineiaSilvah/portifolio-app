@@ -3,23 +3,34 @@ import './App.css';
 import Cabecalho from './components/Cabecalho';
 import Rodape from './components/Rodape';
 import Banner from './components/Banner';
+import Sobre from './components/Sobre';
+
+
+import Skills from './components/Skills';
+
 function App() {
   return (
     <div className="App">
        <Parallax pages={7} className='fundo'>
         <ParallaxLayer offset={0} >
           <Cabecalho/>
-          ooooooooooooooooooooooooooooooooooooooo
+
           <Banner/>
         </ParallaxLayer>
-        <ParallaxLayer offset={1}>11111111111111111111111111111</ParallaxLayer>
+        <ParallaxLayer offset={1}>
+     
+          <Sobre/>
+        </ParallaxLayer>
         <ParallaxLayer offset={2}  className='frente'>
-22222222222222222222
+          <Skills/>
         </ParallaxLayer>
         <ParallaxLayer offset={3}>
         3333333333333333333
         </ParallaxLayer>
         <ParallaxLayer offset={4}  className='frente'>
+        <div className='teste' data-aos='fade-down'>
+        <h2>aos</h2>
+       </div>
           444444444444444444444444
         </ParallaxLayer>
         <ParallaxLayer offset={5}>
