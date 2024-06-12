@@ -7,6 +7,7 @@ import Sobre from './components/Sobre';
 
 
 import Skills from './components/Skills';
+import Formacao from './components/Formacao';
 
 function App() {
   return (
@@ -25,7 +26,8 @@ function App() {
           <Skills/>
         </ParallaxLayer>
         <ParallaxLayer offset={3}>
-        3333333333333333333
+     
+        <Formacao/>
         </ParallaxLayer>
         <ParallaxLayer offset={4}  className='frente'>
         <div className='teste' data-aos='fade-down'>
