@@ -1,5 +1,5 @@
 import './Sobre.css';
-
+import './Responsivo.css';
 import AOS from "aos";
 import "aos/dist/aos.css"; // You can also use <link> for styles
 import { useEffect } from "react";
@@ -15,10 +15,10 @@ export default function Sobre(){
   },[])
   return(
     <section className='sobre'>
-      <div data-aos="fade-left">
+    
       <h2>Sobre mim</h2>
         
-      </div>
+    
       <div data-aos='fade-right'>
         
       <p>Olá Sou a Luh, tenho 32 anos e estou em transição de carreira. Sou Graduada em Gestão da Tecnologia da Informação na intituição de ensino Uniasselvi aqui do Parana, Venho do ramo de comercial onde atuava como Subgerente a mais de 10 anos, há 3 anos resolvi sair da minha zona de conforto e tentar algo novo, e aqui estou ☺...</p>

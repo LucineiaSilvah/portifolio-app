@@ -8,15 +8,18 @@ import Sobre from './components/Sobre';
 
 import Skills from './components/Skills';
 import Formacao from './components/Formacao';
+import Projetos from './components/Projetos';
 
 function App() {
   return (
     <div className="App">
        <Parallax pages={7} className='fundo'>
         <ParallaxLayer offset={0} >
+          <div className='primeira'>
+            
           <Cabecalho/>
-
           <Banner/>
+          </div>
         </ParallaxLayer>
         <ParallaxLayer offset={1}>
      
@@ -30,10 +33,8 @@ function App() {
         <Formacao/>
         </ParallaxLayer>
         <ParallaxLayer offset={4}  className='frente'>
-        <div className='teste' data-aos='fade-down'>
-        <h2>aos</h2>
-       </div>
-          444444444444444444444444
+     
+          <Projetos/>
         </ParallaxLayer>
         <ParallaxLayer offset={5}>
           555555555555555555555555

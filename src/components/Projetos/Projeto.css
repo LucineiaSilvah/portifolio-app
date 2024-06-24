@@ -1,0 +1,21 @@
+.projeto{
+  border:  2px solid white;
+  margin:  0 auto;
+  width: 60%;
+  border-radius: 10px;
+  justify-content: space-around;
+  background: #1e1d1d;
+ color: #fff;
+
+
+}
+.descricao{
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.projeto img{
+ width: 100%;
+}

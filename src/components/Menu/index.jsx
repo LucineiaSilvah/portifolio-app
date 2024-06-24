@@ -1,6 +1,7 @@
 /* eslint-disable jsx-a11y/anchor-is-valid */
 import Botao from '../Btn';
 import './Menu.css';
+import './Responsivo.css';
 export default function Menu(){
   return(
    <nav className="menu">

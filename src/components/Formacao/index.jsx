@@ -9,7 +9,7 @@ export default function Formacao(){
       <h2>Fomação Academica</h2>
     <div className='formacaoBox'>
       
-    </div>
+
     <Card className='cardMedio'
     descricao={'Gestão de TI'}
     >
@@ -29,6 +29,7 @@ export default function Formacao(){
       <img src={udemy} alt="" />
       <p>Em Andamento</p>
     </Card>
+    </div>
     </section>
   )
 }

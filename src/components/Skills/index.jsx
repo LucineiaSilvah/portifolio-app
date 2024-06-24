@@ -1,7 +1,9 @@
-
-import Card from '../Cards';
-import CardSkills from './CardSkills';
 import './Skills.css';
+import './Responsivo.css';
+import Card from '../Cards';
+
+import CardSkills from './CardSkills';
+
 export default function Skills(){
   
     return (
@@ -21,7 +23,7 @@ export default function Skills(){
       
          <CardSkills titulo='Soft'>
          <Card className='card' cat='solid' icone='laptop-code' descricao='codar'/>
-         <Card className='card' cat='solid' icone='guitar' descricao='musica'/>
+    
          <Card className='card' cat='solid' icone='clock-rotate-left' descricao='Agilidade'/>
          <Card className='card' cat='solid' icone='magnifying-glass' descricao='Curiosidade'/>
          <Card className='card' cat='solid' icone='people-group' descricao='trabalho em equipe'/>

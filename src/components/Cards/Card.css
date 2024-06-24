@@ -11,8 +11,21 @@
   margin: 10px;
   font-size: 1.5rem;
   color: #8301A3;
+  
 }
 .card p{
   width: 100%;
   flex-wrap: wrap;
 }
+@media screen and (min-width:0) and (max-width:720px){
+  .card {
+   width: 30px;
+   height: 30px;
+
+
+  }
+  .card p{
+    display: none;
+  }
+  
+ }

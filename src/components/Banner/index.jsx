@@ -1,10 +1,11 @@
 import './Banner.css';
+import './Responsivo.css';
 
 export default function Banner(){
   return(
     <>
     <div className='banner'>
-  
+    
     <div className='imagem'>
       
     </div>

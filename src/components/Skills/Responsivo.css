@@ -1,0 +1,14 @@
+@media screen and (min-width:0) and (max-width:720px){
+  .skills {
+   flex-direction: column;
+   text-align: center;
+   align-items: center;
+  font-size: 1.1rem;
+
+  }
+  .skills h2{
+    margin-top:1.5rem;
+    position: absolute;
+  }
+  
+ }

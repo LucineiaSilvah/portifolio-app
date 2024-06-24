@@ -1,5 +1,7 @@
+import './Responsivo.css';
 import Menu from "../Menu";
 import './Cabecalho.css'
+
 export default function Cabecalho(){
 
   return(

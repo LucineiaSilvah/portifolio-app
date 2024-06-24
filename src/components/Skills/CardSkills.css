@@ -13,3 +13,11 @@
   color: #f6057d;
   padding-bottom: 20px;
 }
+@media screen and (min-width:0) and (max-width:720px){
+  .cardSkills {
+
+  width: 90%;
+
+  }
+  
+ }
