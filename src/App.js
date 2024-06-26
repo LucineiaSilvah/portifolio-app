@@ -10,6 +10,7 @@ import Skills from './components/Skills';
 import Formacao from './components/Formacao';
 import Projetos from './components/Projetos';
 
+
 function App() {
   return (
     <div className="App">
@@ -18,6 +19,7 @@ function App() {
           <div className='primeira'>
             
           <Cabecalho/>
+     
           <Banner/>
           </div>
         </ParallaxLayer>
@@ -37,7 +39,7 @@ function App() {
           <Projetos/>
         </ParallaxLayer>
         <ParallaxLayer offset={5}>
-          555555555555555555555555
+        
         </ParallaxLayer>
         <ParallaxLayer offset={6} className='frente'>
           <Rodape/>

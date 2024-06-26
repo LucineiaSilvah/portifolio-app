@@ -1,12 +1,12 @@
-import './Responsivo.css';
 import Menu from "../Menu";
-import './Cabecalho.css'
+import style from './Cabecalho.module.css'
 
 export default function Cabecalho(){
 
   return(
-    <header className="cabecalho">
+    <header className={style.Cabecalho}>
       <h1>Lucineia </h1>
+      
       <Menu/>
     </header>
   )

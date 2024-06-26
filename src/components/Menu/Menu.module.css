@@ -1,0 +1,49 @@
+.Menu {
+  display: flex;
+  font-size: 2rem;
+  padding: 2rem;
+}
+.Menu ul{
+  display: flex;
+  align-items: center;
+}
+.Menu ul li{
+  padding:  0 20px;
+}
+.Icon{
+  position: absolute;
+ display: none;
+}
+.Menu.menuOpen{
+  display: block;
+}
+.Menu.menuOpen{
+  display: none;
+}
+
+@media screen and (min-width:0) and (max-width:720px){
+  .Icon{
+    display: block;
+  }
+  .Menu{
+  font-size: 1.2rem;
+color: aliceblue;
+  }
+  .Menu ul{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+   position: absolute;
+   background: #240d3bc8; 
+   display: none;
+   left: 0;
+   right: 0;
+  }
+  .Menu ul li{
+    padding:  20px 0;
+  
+  }
+  .Menu a{
+    color: aliceblue;
+  }
+   }

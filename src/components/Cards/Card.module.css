@@ -1,6 +1,6 @@
-.card{
-  width: 100px;
-  height: 100px;
+.Card{
+  width: auto;
+  height: auto;
   display: flex;
   background:#fff;
   flex-direction: column;
@@ -18,13 +18,15 @@
   flex-wrap: wrap;
 }
 @media screen and (min-width:0) and (max-width:720px){
-  .card {
-   width: 30px;
-   height: 30px;
+  .Card {
+    width: auto;
+    height: auto;
+font-size: 16px;
+margin:5px auto;
 
 
   }
-  .card p{
+  .Texto{
     display: none;
   }
   

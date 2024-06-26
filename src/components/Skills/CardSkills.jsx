@@ -1,5 +1,5 @@
 
-import './CardSkills.css';
+import style from './CardSkills.module.css';
 
 import AOS from "aos";
 import "aos/dist/aos.css"; // You can also use <link> for styles
@@ -10,22 +10,17 @@ export default function CardSkills({titulo,children}){
     AOS.init({
       duration:1000,
       delay:'1000',
-      mirror:'true'
+   
     });
 
   },[])
     return (
-      <div className='cardSkills' data-aos='fade-up'>
+      <div className={style.CardSkills} >
       
          <h3>{titulo}</h3>
-        <div className='boxCard'>
+        <div className={style.Box}>
           {children}
-        {/* <Card icone={'html5'} descricao='html5'/>
-        <Card icone='css3' descricao='css3'/>
-        <Card icone='js' descricao='javascript'/>
-        <Card icone='bootstrap' descricao='bootstrap'/>
-        <Card icone='react' descricao='react'/>
-        <Card icone='php' descricao='php'/> */}
+   
 
         </div>
       </div>

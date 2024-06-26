@@ -1,0 +1,17 @@
+.Cabecalho{
+width: 100%;
+display: flex;
+align-items: center;
+justify-content: space-around;
+font-size: 1.2rem;
+background: #000;
+position: relative;
+}
+
+
+
+@media screen and (min-width:0) and (max-width:720px){
+ .Cabecalho{
+  flex-direction: column;
+ }
+  }

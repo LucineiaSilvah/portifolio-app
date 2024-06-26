@@ -1,0 +1,41 @@
+.Formacao{
+  display: flex;
+  width: 100%;
+flex-direction: column;
+ justify-content: center;
+ align-items: center;
+height: 100vh;
+ font-size: 2rem;
+}
+
+.Formacao img{
+  width: 150px;
+  height: 150px;
+}
+
+
+
+.Box{
+ display: flex;
+ justify-content: space-around;
+ align-items: center;
+ padding: 50px;
+width: 100%;
+}
+@media screen and (min-width:0) and (max-width:720px){
+  .Formacao{
+    font-size: 1rem;
+  }
+  .Formacao img{
+    width: 80px;
+    height: 80px;
+  }
+  .Box{
+   display: grid;
+   grid-template-columns: repeat(2,1fr);
+   padding: 20px 0;
+
+   }
+  
+
+}

@@ -1,4 +1,4 @@
-import './Projeto';
+import './Projetos.css';
 import SimpleSlider from '../Slider/Slider';
 export default function Projetos(){
   return(

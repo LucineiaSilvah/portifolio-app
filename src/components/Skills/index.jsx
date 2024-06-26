@@ -1,5 +1,5 @@
-import './Skills.css';
-import './Responsivo.css';
+import style from'./Skills.module.css';
+
 import Card from '../Cards';
 
 import CardSkills from './CardSkills';
@@ -7,10 +7,11 @@ import CardSkills from './CardSkills';
 export default function Skills(){
   
     return (
-      <section className='skills'>
+      <section className={style.Skills}>
         <h2>Skills</h2>
-         <CardSkills 
-         titulo='hard'
+        <div className={style.Box}>
+
+         <CardSkills titulo='hard'
          >
          <Card className='card' cat='brands' icone='html5' descricao='html5'/>
          <Card className='card' cat='brands' icone='css3' descricao='CSS3'/>
@@ -31,6 +32,7 @@ export default function Skills(){
          <Card className='card' cat='solid' icone='face-smile-beam' descricao='Paciência'/>
          
          </CardSkills>
+        </div>
        
       </section>
     );

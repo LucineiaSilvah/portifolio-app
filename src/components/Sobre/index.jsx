@@ -1,5 +1,5 @@
-import './Sobre.css';
-import './Responsivo.css';
+import style from  './Sobre.module.css';
+
 import AOS from "aos";
 import "aos/dist/aos.css"; // You can also use <link> for styles
 import { useEffect } from "react";
@@ -7,14 +7,14 @@ import { useEffect } from "react";
 export default function Sobre(){
   useEffect(()=>{
     AOS.init({
-      duration:2000,
-      delay:'900',
-      mirror:'true'
+      duration:1500,
+      delay:'1000',
+  
     });
 
   },[])
   return(
-    <section className='sobre'>
+    <section className={style.Sobre}>
     
       <h2>Sobre mim</h2>
         
