@@ -1,0 +1,31 @@
+.Redes{
+  width: 50%;
+  display: flex;
+  align-items: center;
+  justify-content:space-around;
+  padding: 20px;
+  margin:0 auto;
+  gap: 3rem;
+
+}
+.Redes i{
+  color: blueviolet;
+  font-size: xx-large;
+  scale: 2;
+  text-shadow: 4px 4px 8px black;
+}
+
+
+@media screen and (min-width:0) and (max-width:720px){
+ .Redes {
+ width: 100%;
+ padding: 0;
+ }
+ .Redes i{
+margin-bottom: 20px;
+  font-size: x-large;
+  text-shadow: 4px 4px 8px black;
+  scale: 1.5;
+}
+    }
+  

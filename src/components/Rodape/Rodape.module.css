@@ -1,0 +1,17 @@
+.Rodape{
+  width: 100%;
+bottom: 0;
+  color: aliceblue;
+position: absolute;
+  background: #000;
+  font-size: 2rem;
+  padding: 20px;
+}
+@media screen and (min-width:0) and (max-width:720px){
+.Rodape{
+  font-size: 1rem;
+  padding: 10px;
+
+}
+
+    }

@@ -1,6 +1,6 @@
 .btn{
-  line-height: 3rem;
-  padding: 0 2rem;
+ font-size: 1rem;
+  padding:  20px;
 color: #fff;
 border: 1px solid #8301A3;
 font-weight: 600;
@@ -8,3 +8,9 @@ letter-spacing: 3px;
 margin: 10px;
   background: transparent;
 }
+@media screen and (min-width:0) and (max-width:720px){
+ .btn{
+ padding: 10px;
+ font-size: .6rem;
+ }
+    }
