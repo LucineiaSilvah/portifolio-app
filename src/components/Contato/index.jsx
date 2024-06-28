@@ -13,10 +13,10 @@ const Contato = () => {
         
       </div>
      <div className={style.Center}>
-             <input type="hidden" name="accessKey" value="1172f2e6-1454-47eb-9ffa-526735fdbf6e"> 
+             <input type="hidden" name="accessKey" value="1172f2e6-1454-47eb-9ffa-526735fdbf6e"/> 
              <input type="hidden" name="subject" value="Contact us from - example.com" /> 
-             <input type="hidden" name="replyTo" value="@"> 
-             <input type="hidden" name="redirectTo" value="https://portifolio-lsv2.netlify.app/"> 
+             <input type="hidden" name="replyTo" value="@"/> 
+             <input type="hidden" name="redirectTo" value="https://portifolio-lsv2.netlify.app/"/> 
             
  
               <label for="nome">Nome</label>
