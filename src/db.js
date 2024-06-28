@@ -1,13 +1,13 @@
-import img1 from "src/components/assets/images/petshop.png";
-import img2 from "src/components/assets/images/ong.jpg";
-import img3 from "src/components/assets/images/petshop.png";
-import img4 from "src/components/assets/images/petshop.png";
-import img5 from "src/components/assets/images/petshop.png";
-import img6 from "src/components/assets/images/petshop.png";
-import img7 from "src/components/assets/images/petshop.png";
-import img8 from "src/components/assets/images/petshop.png";
-import img9 from "src/components/assets/images/petshop.png";
-import img10 from "src/components/assets/images/petshop.png";
+import img1 from "src/img/ong.jpg";
+import img2 from "src/img/ong.jpg";
+import img3 from "src/img/ang-pro.png";
+import img4 from "src/img/ong.jpg";
+import img5 from "src/img/ong.jpg";
+import img6 from "src/img/ong.jpg";
+import img7 from "src/img/ong.jpg";
+import img8 from "src/img/ong.jpg";
+import img9 from "src/img/ong.jpg";
+import img10 from "src/img/ong.jpg";
 
 export const data = [
   {"destaque":[
@@ -21,7 +21,7 @@ export const data = [
    }
  ,
     {
-    "imagem":img2,
+    "imagem":img1,
     "titulo":"Ipsom Ong",
     "descricao":"Projeto Pessoal",
     "tech":"Techs:HTML5 | CSS3 | REACT",
@@ -30,7 +30,7 @@ export const data = [
    }
  ,
    {
-    "imagem":"/src/img/ang-pro.png",
+    "imagem":img3,
     "titulo":"Mortal Figther",
     "descricao":"Challange DIO Modelo blog",
     "tech":"Techs:TS|ANGULAR|CSS",
