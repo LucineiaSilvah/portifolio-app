@@ -1,7 +1,8 @@
 import React from "react";
 import Slider from "react-slick";
-import dados from '../../db.json';
+import dados from '../../db.js';
 import Projeto from "../Projetos/Projeto";
+import img1 from './img/ong.png';
 export default function SimpleSlider() {
   var settings = {
     dots: true,
