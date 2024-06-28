@@ -1,4 +1,4 @@
-import img1 from "./img/ong.jpg";
+import img1 from "./img/IMG_20240628_181048.jpg";
 import img2 from "./img/ong.jpg";
 import img3 from "./img/ang-pro.png";
 import img4 from "./img/cadastro.jpg";
@@ -6,8 +6,12 @@ import img5 from "./img/bz.png";
 import img6 from "./img/crud.png";
 import img7 from "./img/decode.png";
 import img8 from "./img/checkList.png";
-import img9 from "./img/ong.jpg";
-import img10 from "./img/ong.jpg";
+import img9 from "./img/horadodia.png";
+import img10 from "./img/geek (1).png";
+import img11 from "./img/gametech.png";
+import img12 from "./img/filmes.png";
+import img13 from "./img/btpage.png";
+import img14 from "./img/gametech.png";
 
 export const data = [
   {"destaque":[
@@ -84,7 +88,7 @@ export const data = [
   }
   ,
   {
-    "imagem":"/src/img/horadodia.png",
+    "imagem":img9,
     "titulo":"Horas do Dia",
     "descricao":"Challange Guanabara",
     "tech":"Techs: HTML CSS JS",
@@ -93,7 +97,7 @@ export const data = [
   }
   ,
   {
-    "imagem":"/src/img/geek (1).png",
+    "imagem":img10,
     "titulo":"E-commerce",
     "descricao":"Challange Alura geek",
     "tech":"Techs: HTML CSS JS |FIGMA TRELLO",
@@ -102,16 +106,16 @@ export const data = [
   }
   ,
   {
-    "imagem":"/src/img/gametech.png",
+    "imagem":img11,
     "titulo":"E-commerce game tech",
     "descricao":"Projeto pessoal",
     "tech":"Techs: HTML CSS JS",
     "repo":"https://github.com/LucineiaSilvah/loja-tech",
     "demo":"https://gametechecommerce.netlify.app/"
-  }
+}
   ,
   {
-    "imagem":"/src/img/filmes.png",
+    "imagem":img12,
     "titulo":"Filmes Guide",
     "descricao":"Challange organo",
     "tech":"Techs: HTML CSS JS REACT |FIGMA TRELLO",
@@ -120,7 +124,7 @@ export const data = [
   }
   ,
   {
-    "imagem":"/src/img/btpage.png",
+    "imagem":img13,
     "titulo":"Lading Page",
     "descricao":"Projeto curso Web",
     "tech":"Techs: HTML | BOOTSTRAP",
