@@ -1,13 +1,13 @@
-import img1 from "src/img/ong.jpg";
-import img2 from "src/img/ong.jpg";
-import img3 from "src/img/ang-pro.png";
-import img4 from "src/img/ong.jpg";
-import img5 from "src/img/ong.jpg";
-import img6 from "src/img/ong.jpg";
-import img7 from "src/img/ong.jpg";
-import img8 from "src/img/ong.jpg";
-import img9 from "src/img/ong.jpg";
-import img10 from "src/img/ong.jpg";
+import img1 from "./img/ong.jpg";
+import img2 from "./img/ong.jpg";
+import img3 from "./img/ang-pro.png";
+import img4 from "./img/cadastro.jpg";
+import img5 from "./img//bz.jpg";
+import img6 from "./img/crud.png";
+import img7 from "./img/decode.png";
+import img8 from "./img/checkList.png";
+import img9 from "./img/ong.jpg";
+import img10 from "./img/ong.jpg";
 
 export const data = [
   {"destaque":[
@@ -21,7 +21,7 @@ export const data = [
    }
  ,
     {
-    "imagem":img1,
+    "imagem":img2,
     "titulo":"Ipsom Ong",
     "descricao":"Projeto Pessoal",
     "tech":"Techs:HTML5 | CSS3 | REACT",
@@ -39,7 +39,7 @@ export const data = [
    }
  ,
   {
-    "imagem":"/src/img/cadastro.jpg",
+    "imagem":img4,
     "titulo":"Sistema de Cadastro",
     "descricao":"Projeto Pessoal",
     "tech":"Techs:PHP|HTML|CSS| MYSQL| APACHE",
@@ -48,7 +48,7 @@ export const data = [
    }
  ,
   {
-    "imagem":"/src/img/bz.png",
+    "imagem":img5,
     "titulo":"Projeto Buzzfeed",
     "descricao":"Projeto estilo buzzfeed",
     "tech":"Techs:TS|ANGULAR|CSS",
@@ -57,7 +57,7 @@ export const data = [
   }
  ,
   {
-    "imagem":"/src/img/crud.png",
+    "imagem":img6,
     "titulo":"Lista tarefas em React",
     "descricao":"LISTA DE TAREFA SIMPLES EM REACT",
     "tech":"Techs:HTML|REACT|CSS",
@@ -66,7 +66,7 @@ export const data = [
   }
   ,
   {
-    "imagem":"/src/img/decode.png",
+    "imagem":img7,
     "titulo":"Decodificador de texto",
     "descricao":"Challange Alura Codificador",
     "tech":"Techs: HTML CSS JS |FIGMA TRELLO",
@@ -75,7 +75,7 @@ export const data = [
   }
   ,
   {
-    "imagem":"/src/img/checkList.png",
+    "imagem":img8,
     "titulo":"Lista de Tarefas",
     "descricao":"Projeto Pessoal",
     "tech":"Techs: HTML CSS JS",
