@@ -1,4 +1,4 @@
-export const data = [
+export default const data = [
   {"destaque":[
      {
     "imagem":img1,
