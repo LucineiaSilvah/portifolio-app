@@ -1,7 +1,7 @@
-[
+export const data = [
   {"destaque":[
      {
-    "imagem":"../public/images/petshop.png",
+    "imagem":img1,
     "titulo":"Só Amores Petshop",
     "descricao":"Projeto Pessoal",
     "tech":"Techs:HTML5 | CSS3 | REACT",
