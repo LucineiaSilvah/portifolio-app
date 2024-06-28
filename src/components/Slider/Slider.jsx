@@ -1,6 +1,6 @@
 import React from "react";
 import Slider from "react-slick";
-import dados from '../../db.js';
+import data from '../../db.js';
 import Projeto from "../Projetos/Projeto";
 import img1 from './img/ong.png';
 export default function SimpleSlider() {
@@ -18,7 +18,7 @@ export default function SimpleSlider() {
     <Slider {...settings}>
 
      {
-      dados && dados[0].destaque.map( (p,i) =>{
+      data && data[0].destaque.map( (p,i) =>{
         return(
           <Projeto
           key={i}
