@@ -6,7 +6,7 @@ import img5 from "./img/bz.png";
 import img6 from "./img/crud.png";
 import img7 from "./img/decode.png";
 import img8 from "./img/checkList.png";
-import img9 from "./img/horadodia.png";
+import img9 from "./img/horadodia.jpg";
 import img10 from "./img/geek (1).png";
 import img11 from "./img/gametech.png";
 import img12 from "./img/filmes.png";
