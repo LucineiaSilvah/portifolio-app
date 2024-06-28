@@ -2,7 +2,7 @@ import img1 from "./img/ong.jpg";
 import img2 from "./img/ong.jpg";
 import img3 from "./img/ang-pro.png";
 import img4 from "./img/cadastro.jpg";
-import img5 from "./img/bz.jpg";
+import img5 from "./img/bz.png";
 import img6 from "./img/crud.png";
 import img7 from "./img/decode.png";
 import img8 from "./img/checkList.png";
