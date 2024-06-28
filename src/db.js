@@ -1,3 +1,4 @@
+import img1 from "./img/ong.jpg";
 export const data = [
   {"destaque":[
      {
