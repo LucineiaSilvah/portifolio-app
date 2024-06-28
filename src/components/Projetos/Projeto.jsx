@@ -13,10 +13,12 @@ export default function Projeto({imagem,titulo,descricao,tech,repo,demo}){
         <div>
 
     <p>{titulo}</p>
-       <p>tipo projeto</p>
+       <p>{descricao}</p>
         </div>
-   
-      
+      <div>
+        {tech}
+      </div>
+      <div>
       <a href={demo} target="_blank" rel="noopener noreferrer">
         <Botao>
           demo
@@ -27,6 +29,8 @@ export default function Projeto({imagem,titulo,descricao,tech,repo,demo}){
       Repo
         </Botao>
       </a>
+      </div>
+     
     
       </div>
 

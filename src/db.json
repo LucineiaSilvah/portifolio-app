@@ -1,7 +1,7 @@
 [
   {"destaque":[
      {
-    "imagem":"/public/petshop.png",
+    "imagem":"../public/images/petshop.png",
     "titulo":"Só Amores Petshop",
     "descricao":"Projeto Pessoal",
     "tech":"Techs:HTML5 | CSS3 | REACT",
@@ -10,7 +10,7 @@
    }
  ,
     {
-    "imagem":"/src/img/ong.jpg",
+    "imagem":"",
     "titulo":"Ipsom Ong",
     "descricao":"Projeto Pessoal",
     "tech":"Techs:HTML5 | CSS3 | REACT",
