@@ -1,7 +1,22 @@
-[
+import img1 from "./img/IMG_20240628_181048.jpg";
+import img2 from "./img/ong.jpg";
+import img3 from "./img/ang-pro.png";
+import img4 from "./img/cadastro.jpg";
+import img5 from "./img/bz.png";
+import img6 from "./img/crud.png";
+import img7 from "./img/decode.png";
+import img8 from "./img/checkList.png";
+import img9 from "./img/horadodia.jpg";
+import img10 from "./img/geek (1).png";
+import img11 from "./img/gametech.png";
+import img12 from "./img/filmes.png";
+import img13 from "./img/btpage.png";
+import img14 from "./img/gametech.png";
+
+export const data = [
   {"destaque":[
      {
-    "imagem":"../public/images/petshop.png",
+    "imagem":img1,
     "titulo":"Só Amores Petshop",
     "descricao":"Projeto Pessoal",
     "tech":"Techs:HTML5 | CSS3 | REACT",
@@ -10,7 +25,7 @@
    }
  ,
     {
-    "imagem":"",
+    "imagem":img2,
     "titulo":"Ipsom Ong",
     "descricao":"Projeto Pessoal",
     "tech":"Techs:HTML5 | CSS3 | REACT",
@@ -19,7 +34,7 @@
    }
  ,
    {
-    "imagem":"/src/img/ang-pro.png",
+    "imagem":img3,
     "titulo":"Mortal Figther",
     "descricao":"Challange DIO Modelo blog",
     "tech":"Techs:TS|ANGULAR|CSS",
@@ -28,7 +43,7 @@
    }
  ,
   {
-    "imagem":"/src/img/cadastro.jpg",
+    "imagem":img4,
     "titulo":"Sistema de Cadastro",
     "descricao":"Projeto Pessoal",
     "tech":"Techs:PHP|HTML|CSS| MYSQL| APACHE",
@@ -37,7 +52,7 @@
    }
  ,
   {
-    "imagem":"/src/img/bz.png",
+    "imagem":img5,
     "titulo":"Projeto Buzzfeed",
     "descricao":"Projeto estilo buzzfeed",
     "tech":"Techs:TS|ANGULAR|CSS",
@@ -46,7 +61,7 @@
   }
  ,
   {
-    "imagem":"/src/img/crud.png",
+    "imagem":img6,
     "titulo":"Lista tarefas em React",
     "descricao":"LISTA DE TAREFA SIMPLES EM REACT",
     "tech":"Techs:HTML|REACT|CSS",
@@ -55,7 +70,7 @@
   }
   ,
   {
-    "imagem":"/src/img/decode.png",
+    "imagem":img7,
     "titulo":"Decodificador de texto",
     "descricao":"Challange Alura Codificador",
     "tech":"Techs: HTML CSS JS |FIGMA TRELLO",
@@ -64,7 +79,7 @@
   }
   ,
   {
-    "imagem":"/src/img/checkList.png",
+    "imagem":img8,
     "titulo":"Lista de Tarefas",
     "descricao":"Projeto Pessoal",
     "tech":"Techs: HTML CSS JS",
@@ -73,7 +88,7 @@
   }
   ,
   {
-    "imagem":"/src/img/horadodia.png",
+    "imagem":img9,
     "titulo":"Horas do Dia",
     "descricao":"Challange Guanabara",
     "tech":"Techs: HTML CSS JS",
@@ -82,7 +97,7 @@
   }
   ,
   {
-    "imagem":"/src/img/geek (1).png",
+    "imagem":img10,
     "titulo":"E-commerce",
     "descricao":"Challange Alura geek",
     "tech":"Techs: HTML CSS JS |FIGMA TRELLO",
@@ -91,16 +106,16 @@
   }
   ,
   {
-    "imagem":"/src/img/gametech.png",
+    "imagem":img11,
     "titulo":"E-commerce game tech",
     "descricao":"Projeto pessoal",
     "tech":"Techs: HTML CSS JS",
     "repo":"https://github.com/LucineiaSilvah/loja-tech",
     "demo":"https://gametechecommerce.netlify.app/"
-  }
+}
   ,
   {
-    "imagem":"/src/img/filmes.png",
+    "imagem":img12,
     "titulo":"Filmes Guide",
     "descricao":"Challange organo",
     "tech":"Techs: HTML CSS JS REACT |FIGMA TRELLO",
@@ -109,7 +124,7 @@
   }
   ,
   {
-    "imagem":"/src/img/btpage.png",
+    "imagem":img13,
     "titulo":"Lading Page",
     "descricao":"Projeto curso Web",
     "tech":"Techs: HTML | BOOTSTRAP",
