@@ -1,19 +1,23 @@
 /* eslint-disable jsx-a11y/anchor-is-valid */
+import { useState } from 'react';
 import Botao from '../Btn';
 import style from './Menu.module.css';
-import { useState } from "react";
+
 export default function Menu(){
-   const [active, setMode] = useState(false);
-   const ToggleMode = () => {
-     setMode(!active);
-   };
+const [ativo,setMode] = useState(false)
+ function meuEvento(){
+
+   setMode(!ativo);
+
+ }
+
   return(
    <>
    <span  className={style.Icon}>
-   <i class="fa-solid fa-bars" onClick={ToggleMode}></i>
+   <i class="fa-solid fa-bars" onClick={meuEvento}></i>
    </span>
-   <nav className={style.Menu} >
-      <ul className="Menu">
+   <nav className={style.Bar}>
+      <ul className={ativo? style.Menu.open : style.Menu} >
      
         <li>
            <a href="#">Sobre Mim </a>

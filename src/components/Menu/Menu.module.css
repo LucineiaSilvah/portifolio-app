@@ -1,49 +1,58 @@
-.Menu {
-  display: flex;
-  font-size: 1.5rem;
-  padding: 1.5rem;
-}
-.Menu ul{
+
+.Bar{
+  background: transparent;
+
+  width: 100%;
   display: flex;
   align-items: center;
+
+
 }
-.Menu ul li{
-  padding:  0 20px;
+.Menu{
+  width: 60%;
+height: 100px;
+ align-items: center;
+
+  display: flex;
+  justify-content: space-around;
+align-self: flex-end;
+position: absolute;
+right: 0;
+top: 0;
+ }
+ .Icon{
+position: absolute;
+display: none;
+ right: 20px;
+ top: 10px;
+ padding: 1rem;
 }
-.Icon{
-  position: absolute;
- display: none;
-}
-.Menu.menuOpen{
-  display: block;
-}
-.Menu.menuOpen{
-  display: none;
-}
+
 
 @media screen and (min-width:0) and (max-width:720px){
   .Icon{
     display: block;
   }
   .Menu{
-  font-size: 1.2rem;
-color: aliceblue;
-  }
-  .Menu ul{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-   position: absolute;
-   background: #240d3bc8; 
    display: none;
-   left: 0;
-   right: 0;
+ 
   }
-  .Menu ul li{
-    padding:  20px 0;
-  
+  .Menu .open{
+    transition:0.5s ;
+    display: block;
+
+ 
   }
-  .Menu a{
-    color: aliceblue;
-  }
-   }
+li{
+  padding: 10px;
+}
+
+.Bar{
+margin-top: 2.1rem;
+  height: auto;
+  width: 100%;
+display: block;
+
+background:rgba(0, 0, 0, 0.831);
+}
+}

@@ -1,4 +1,5 @@
 
+import Botao from '../Btn';
 import { Redes } from '../Redes';
 import style from './Contato.module.css';
 
@@ -51,12 +52,11 @@ const Contato = () => {
                 cols=""
                 placeholder=" Digite aqui a sua Mensagem"
               ></textarea>
-              
-               <input
-                type="submit"
-                value="Enviar mensagem"
-                
-              />
+              <Botao>
+             
+              enviar mensagem
+              </Botao>
+             
      </div>
            <Redes size={style.Size}/>
     </form>

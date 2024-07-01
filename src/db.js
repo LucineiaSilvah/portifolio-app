@@ -11,7 +11,7 @@ import img10 from "./img/geek (1).png";
 import img11 from "./img/gametech.png";
 import img12 from "./img/filmes.png";
 import img13 from "./img/btpage.png";
-import img14 from "./img/gametech.png";
+
 
 export const data = [
   {"destaque":[
