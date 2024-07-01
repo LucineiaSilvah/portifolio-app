@@ -6,7 +6,7 @@ const Contato = () => {
   return (
     <section className={style.Contato}>
      <h2>Contato</h2>
-      <form className={style.Form}  action="https://api.staticforms.xyz/submit" method="POST" class="contato__formulario">
+      <form className={style.Form}  action="https://api.staticforms.xyz/submit" method="POST">
         <div className={style.Texto}>
           <p>Que bater um papo comigo?</p>
           <p>Entre em contato!!</p>
