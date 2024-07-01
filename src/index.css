@@ -16,3 +16,6 @@ body{
   background:url('./img/bg.jpeg')no-repeat center / cover;
   color: #fff;
 }
+h2{
+  margin-bottom: 1rem;
+}

@@ -1,7 +1,7 @@
 .Menu {
   display: flex;
-  font-size: 2rem;
-  padding: 2rem;
+  font-size: 1.5rem;
+  padding: 1.5rem;
 }
 .Menu ul{
   display: flex;
